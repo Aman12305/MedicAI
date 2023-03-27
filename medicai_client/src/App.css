@@ -1,0 +1,33 @@
+.chakra_color{
+  color:white  !important;
+  background-image:linear-gradient(to left, #bb7ff8, #FF0080) !important;
+}
+
+.chakra_button{
+  color:white  !important;
+  /* 7928CA */
+  background-image:linear-gradient(to left, #bb7ff8, #FF0080) !important;
+  padding: 4px 12px !important;
+  margin: 8px 5px 8px 0!important;
+  height: max-content !important;
+  width: max-content !important;
+  border-radius: 50px !important;
+  min-height: 30px !important;
+}
+
+.chakra_text{
+  color: transparent;
+  background-clip: text !important;
+  background-image:linear-gradient(to left, #370568, #FF0080) !important;
+  /* color:#b00c5e; */
+}
+
+.chakra_button:hover{
+  cursor: pointer;
+  background-image:linear-gradient(to left, #7f07f7, #84124b77 ) !important;
+}
+
+.full{
+  width:calc(100% - 10px) !important;
+  margin: 8px auto !important;
+}
