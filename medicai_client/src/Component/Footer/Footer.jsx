@@ -21,7 +21,7 @@ export default function Footer() {
 
   return (
     <Box className='chakra_color' px='10px' py='20px'>
-      <Image src='https://bit.ly/dan-abramov' alt='Dan Abramov' className="" float='right' w='100px' h='25px'/>
+      {/* <Image src='https://bit.ly/dan-abramov' alt='Dan Abramov' className="" float='right' w='100px' h='25px'/> */}
       <Box maxW='50%' >Copyright © 2023 MedicAi Pvt Ltd.</Box>
     </Box>
   )

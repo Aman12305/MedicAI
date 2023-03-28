@@ -8,6 +8,7 @@ import {
     Input,
     Select,
     Button,
+    Heading,
   } from '@chakra-ui/react'
 
 export default function Form() {
@@ -118,6 +119,7 @@ export default function Form() {
   return (
     <Box maxW='sm' mx='auto' my='50px' p='10px'>
         <form onSubmit={handleSubmit}>
+            <Heading mb='10px'>Heart Prediction using Ml</Heading>
             {
                 formFields.map((field,index)=>(
                     <FormControl isRequired my='10px' bg='blackAlpha.50' p='10px' borderRadius='10px'>
